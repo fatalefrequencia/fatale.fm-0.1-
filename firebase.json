@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "fatale-dc054-9bb7c",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
